@@ -1,0 +1,8 @@
+a = input()
+r = 0
+for i in a:
+    if i in ('1234567890'):
+        r = int(i)+r
+    else:
+        continue
+print(r)  
