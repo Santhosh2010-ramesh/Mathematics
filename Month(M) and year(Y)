@@ -16,3 +16,4 @@ for i in range(2, dm+1):
             f.append(j)
     if len(f)<=2:
         count+=1
+print(count)
